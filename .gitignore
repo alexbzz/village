@@ -1,0 +1,53 @@
+# PHP
+*.php~
+*.swp
+vendor/
+composer.phar
+composer.lock
+.env
+.env.local
+
+# IDE
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+*.log.*
+
+# Cache
+cache/
+tmp/
+temp/
+*.cache
+
+# Configuration locale
+config/local.php
+config/database.local.php
+
+# Tests
+phpunit.xml
+.phpunit.result.cache
+coverage/
+.phpunit.cache/
+
+# Build
+build/
+dist/
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# OS
+.AppleDouble
+.LSOverride
+._*
+ehthumbs.db
+Desktop.ini
